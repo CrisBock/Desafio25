@@ -11,15 +11,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="estilos.css">
+    <title>Cosm&eacute;ticos Lorelayt</title>
     <title>Productos</title>
 </head>
+
 <body>
     <header>
         <span class="site-heading-lower">
-            <img src="img/Logo1.png" class="logoImage rounded mx-auto d-block" alt="Foto" style="width: 80px">
+            <img src="img/logo1.png" class="logoImage rounded mx-auto d-block" alt="..." style="width: 80px">
         </span>
     </header>
-    <nav class="nav navbar navbar-expand-lg navbar-dark py-lg-4 navbar-fixed-top topnav">
+    <nav class="nav navbar navbar-expand-lg navbar-dark py-lg-4 navbar-fixed-top topnav" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html">LORELAY</a>
             <button button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,99 +48,148 @@
             </div>
         </div>
     </nav>
-    <section class="page-section clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="divTitle">
-                        <h1>NUESTROS PRODUCTOS</h1>  
-                    </div>
-                </div>     
-            </div>
-                <div class="row divProducts">
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto1.jpg" alt="Foto"></a>
-                        <h3>BROCHAS</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto2.jpg" alt="Foto"></a>
-                        <h3>LABIALES CREMOSOS</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto3.jpg" alt="Foto"></a>
-                        <h3>RUBORES</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                </div>
-                <div class="row divProducts">
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto4.jpg" alt="Foto"></a>
-                        <h3>BASES FLUIDAS</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto5.jpg" alt="Foto"></a>
-                        <h3>SOMBRAS</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                    <div class="col-sm-12 col-md-4 columna">
-                        <a href="productos.html"><img width="380" height="300" class="divImage" src="img/producto6.jpg" alt="Foto"></a>
-                        <h3>BASE ORG&Aacute;NICA</h3>
-                        <button type="button" class="btn btn-primary">COMPRAR</button>
-                    </div>
-                </div>
-                <hr>
 
+    <div class="containerSection">
+        <div class="row">
+            <div class="col-sm-12">
+                <div>
+                    <h1>NUESTROS PRODUCTOS</h1>  
+                </div>
+            </div>     
+        </div>
+        <div class="row">
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto1.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">BROCHAS</h5>
+                        <p class="card-text">La Colección tiene cinco brochas suaves, de pelo sintético de alta calidad para un acabado preciso.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto2.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">LABIALES CREMOSOS</h5>
+                        <p class="card-text">Aportan un acabado ligero y una textura cremosa que favorece a la hidratación.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto3.jpg" class="card-img-top" alt="Fotos">
+                    <div class="card-body">
+                        <h5 class="card-title">RUBORES</h5>
+                        <p class="card-text">Para lograr un rubor natural, elige entre los diez tonos mate o luminosos que no se desvanecen.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto4.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">BASES FLUIDAS</h5>
+                        <p class="card-text">Te presentamos las nuevas bases Mate y Luminosa, nuestra última innovación inspirada por ti.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row productosPadding">
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto5.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">SOMBRAS</h5>
+                        <p class="card-text">Sombras de larga duraci&oacute;n y f&aacute;cil aplicaci&oacute;n.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto6.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">BASE ORG&aacute;nica</h5>
+                        <p class="card-text">Es liviana, posee secado rápido y ofrece un acabado mate perfecto.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto7.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">SET DE MAQUILLAJE</h5>
+                        <p class="card-text">Ideal para crear los mejores looks de maquillaje como un profesional.</p>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center col-sm-12 col-md-3 mx-auto productosPadding">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/producto8.jpg" class="card-img-top" alt="Foto">
+                    <div class="card-body">
+                        <h5 class="card-title">L&Iacute;NEA ROM&Aacute;NTICA</h5>
+                        <p class="card-text">Especial para aquellas mujeres de alma rom&aacute;tica.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    
             <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <h3>DIRECCI&Oacute;N</h3>
-                            <div class="address">357, WASHINGTON AVE., <br />30523 - NEW YORK (NY)</div>
-                            <p>Tel. <a href="tel:+1 917 3452356">+1 (917) 3452356</a></p>
-                            <p>Email. <a href="mailto:info@yourdomain.com">info@lorelay.com</a></p>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <h3>AYUDA</h3>
-                            <ul class="list-link">
-                                <li><a href="#">C&Oacute;MO COMPRAR</a></li>
-                                <li><a href="#">INFORMACI&Oacute;N GENERAL</a></li>
-                                <li><a href="#">FORMAS DE PAGO</a></li>
-                                <li><a href="#">ENV&Iacute;OS</a></li>
-                                <li><a href="#">DEVOLUCIONES</a></li>
-                                <li><a href="#">CAMBIOS</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <h3>POL&Iacute;TICAS</h3>
-                            <ul class="list-link">
-                                <li><a href="#">POL&Iacute;TICA MEDIOAMBIENTAL</a></li>
-                                <li><a href="#">PROTECCI&Oacute;N ANIMAL</a></li>
-                                <li><a href="#">POL&Iacute;TICA DE CONFIDENCIALIDAD</a></li>
-                                <li><a href="#">CONDICIONES DE COMPRA</a></li>
-                                <li><a href="#">T&Eacute;RMINOS Y CONDICIONES</a></li>
-                                <li><a href="#">GARANT&Iacute;AS</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <h3>EMPRESA</h3>
-                            <ul class="list-link">
-                                <li><a href="#">SOBRE NOSOTROS</a></li>
-                                <li><a href="#">SUCURSALES</a></li>
-                                <li><a href="#">LOCALES</a></li>
-                                <li><a href="#">QUIERO SER CONSULTORA</a></li>
-                                <li><a href="#">CONTACTANOS</a></li>
-                            </ul>
-                        </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h3>DIRECCI&Oacute;N</h3>
+                        <div class="address">357, WASHINGTON AVE., <br />30523 - NEW YORK (NY)</div>
+                        <p>Tel. <a href="tel:+1 917 3452356">+1 (917) 3452356</a></p>
+                        <p>Email. <a href="mailto:info@yourdomain.com">info@lorelay.com</a></p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>AYUDA</h3>
+                        <ul class="list-link">
+                            <li><a href="#">C&Oacute;MO COMPRAR</a></li>
+                            <li><a href="#">INFORMACI&Oacute;N GENERAL</a></li>
+                            <li><a href="#">FORMAS DE PAGO</a></li>
+                            <li><a href="#">ENV&Iacute;OS</a></li>
+                            <li><a href="#">DEVOLUCIONES</a></li>
+                            <li><a href="#">CAMBIOS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>POL&Iacute;TICAS</h3>
+                        <ul class="list-link">
+                            <li><a href="#">POL&Iacute;TICA MEDIOAMBIENTAL</a></li>
+                            <li><a href="#">PROTECCI&Oacute;N ANIMAL</a></li>
+                            <li><a href="#">POL&Iacute;TICA DE CONFIDENCIALIDAD</a></li>
+                            <li><a href="#">CONDICIONES DE COMPRA</a></li>
+                            <li><a href="#">T&Eacute;RMINOS Y CONDICIONES</a></li>
+                            <li><a href="#">GARANT&Iacute;AS</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3>EMPRESA</h3>
+                        <ul class="list-link">
+                            <li><a href="#">SOBRE NOSOTROS</a></li>
+                            <li><a href="#">SUCURSALES</a></li>
+                            <li><a href="#">LOCALES</a></li>
+                            <li><a href="#">QUIERO SER CONSULTORA</a></li>
+                            <li><a href="#">CONTACTANOS</a></li>
+                        </ul>
                     </div>
                 </div>
             </footer>
         </div>
-    </section>
-    
+    </div>
+
     <script type= "text/javascript" src="js/bootstrap.min.js"></script>
     <script type= "text/javascript" src="js/query-3.6.0.min.js"></script>
 </body>
+
 </html>
